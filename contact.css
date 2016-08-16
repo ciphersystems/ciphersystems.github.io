@@ -19,6 +19,11 @@ input.text:focus, input.search:focus, textarea:focus.textarea:focus, select:focu
     outline-color: #cdcdcd !important;
 }
 
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select {
+    color: #565656 !important;
+    padding: 6px !important;
+}
+
 #saveForm {
     background: #efefef;
     border: solid 1px #aaa;
