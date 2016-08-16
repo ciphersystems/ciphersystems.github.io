@@ -1,4 +1,21 @@
+.wufoo {
+    font-family: "Roboto", sans-serif !important; 
+    letter-spacing: normal !important; 
+    color: #444 !important;
+}
 .wufoo li.focused {
     background: transparent !important;
     color: red !important;
+}
+
+input.text, input.search, textarea.textarea {
+    border: solid 1px #eee;
+    padding: 6px;
+    color: #444 !important;
+}
+
+#saveForm {
+    background: #ddd;
+    border: solid 1px #ccc;
+    padding: 10px;
 }
