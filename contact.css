@@ -10,11 +10,13 @@
 
 input.text, input.search, textarea.textarea, select {
     border: solid 1px #dedede;
-    padding: 6px;
-    color: #565656;
+    padding: 6px !important;
+    color: #565656 !important;
+    background: transparent !important;
 }
 input.text:focus, input.search:focus, textarea:focus.textarea:focus, select:focus {
     border: solid 1px #cdcdcd;
+    outline-color: #cdcdcd !important;
 }
 
 #saveForm {
