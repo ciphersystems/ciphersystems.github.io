@@ -1,0 +1,4 @@
+.wufoo li.focused {
+    background: transparent !important;
+    color: red !important;
+}
