@@ -1,3 +1,7 @@
+/* #wufooFormqr3kybg17kwzuv  */
+html.embed {
+    background-color: transparent !important;
+}
 .wufoo {
     font-family: "Roboto", sans-serif !important; 
     letter-spacing: normal !important; 
@@ -5,14 +9,13 @@
 }
 .wufoo li.focused {
     background: transparent !important;
-    color: red !important;
 }
 
 input.text, input.search, textarea.textarea, select {
     border: solid 1px #dedede;
     padding: 6px !important;
     color: #565656 !important;
-    background: transparent !important;
+    background: #fff !important;
 }
 input.text:focus, input.search:focus, textarea:focus.textarea:focus, select:focus {
     border: solid 1px #cdcdcd;
